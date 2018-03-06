@@ -1,0 +1,7 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(F:\Play Projects\mynewapp\conf\application.conf,F:\Play Projects\mynewapp\target\scala-2.11\classes\application.conf)[0m
+[0m[[0mdebug[0m] [0m	(F:\Play Projects\mynewapp\conf\evolutions,F:\Play Projects\mynewapp\target\scala-2.11\classes\evolutions)[0m
+[0m[[0mdebug[0m] [0m	(F:\Play Projects\mynewapp\conf\logback.xml,F:\Play Projects\mynewapp\target\scala-2.11\classes\logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(F:\Play Projects\mynewapp\conf\routes,F:\Play Projects\mynewapp\target\scala-2.11\classes\routes)[0m
+[0m[[0mdebug[0m] [0m	(F:\Play Projects\mynewapp\conf\evolutions\default,F:\Play Projects\mynewapp\target\scala-2.11\classes\evolutions\default)[0m
+[0m[[0mdebug[0m] [0m	(F:\Play Projects\mynewapp\conf\evolutions\default\1.sql,F:\Play Projects\mynewapp\target\scala-2.11\classes\evolutions\default\1.sql)[0m

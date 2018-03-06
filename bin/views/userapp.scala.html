@@ -1,0 +1,23 @@
+@* index Template File *@
+@(users: List[User])
+
+@layout("All Users"){
+<h1>All Users</h1>
+
+<a href="@routes.UserController.create">Click here to Create User</a><br><br>
+
+@for(user<-users){
+
+<a>@user.id</a>
+<p>Name: @user.name</p>
+<p>location: @user.location</p> 
+<p>Number: @user.number</p>
+
+<a href="@routes.UserController.edit(user.id)">Edit User</a>
+
+<a href="@routes.UserController.destroy(user.id)">Delete User</a><br><br>	
+
+}
+}
+
+

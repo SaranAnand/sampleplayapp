@@ -1,0 +1,28 @@
+@* create Template File *@
+@(userForm: Form[User])
+@import helper._
+
+<html>
+<head>
+<title>Create user</title>
+</head>
+
+<body>
+<h1>Create User</h1>
+
+@helper.form(action= routes.UserController.save()){
+	@helper.inputText(userForm("ID"))
+	@helper.inputText(userForm("Name"))
+	@helper.inputText(userForm("Location"))
+	@helper.inputText(userForm("Number"))
+	<input type="submit" value="Create User">
+}
+
+@* <form action="/users/create" method="POST"></form> *@
+
+
+
+
+</body>
+
+</html>
